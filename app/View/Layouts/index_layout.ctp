@@ -16,6 +16,7 @@
         
 	</div>
     <div class="container-fluid">
+		<?php echo $this->element('Components/header-index');?>
         <?php echo $this->fetch('content'); ?>
     </div>
 </body>
