@@ -1,15 +1,39 @@
-<div>
+<div class="mx-5">
     <section class="bg-nika">
-        <div class="container">
-        <div class="row">
-            <div class="d-flex justify-content-center">
-                    <h2>Neo Frank</h2>
-            </div>
-        </div>
+        <div class="d-flex justify-content-center">
+            
         </div>
     </section>
         
     <section class="bg-nika-solid">
-        <h2>World</h2>
+        <div class="d-flex justify-content-center">
+            <div class="row">
+                <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-about-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" aria-selected="false">About</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
+</div>
+
+<div class="row mt-4">
+    <div class="d-flex justify-content-center">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">Test</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Test2</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">Test3</div>
+            <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabindex="0">Test4</div>
+        </div>
+    </div>
 </div>
