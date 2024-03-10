@@ -13,7 +13,7 @@
 	?>
 </head>
 <body>
-    <div class="container-fluid-xl">
+    <div class="container-fluid">
 		<?php echo $this->element('Components/header-index');?>
         <?php echo $this->fetch('content'); ?>
     </div>
